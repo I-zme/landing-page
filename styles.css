@@ -53,7 +53,6 @@ a{
 .hero{
     background-color: #ff6666;
     display:flex;
-    width:inherit;
     gap:20px;
 }
 
@@ -83,11 +82,12 @@ a{
 .information{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
+    font-size: 0.8rem;
 }
 
 .info {
-    width: 150px;
+    width: 130px;
 }
 
 .info img {
@@ -119,8 +119,26 @@ a{
 
 
 /*SIGNUP*/
-.signup{
+.signup-section{
     background-color: #ffcccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:15px;
+}
+
+.join {
+    border-radius: 7px;
+    border-color: #cc0000;
+    padding: 0.3rem 0.8rem;
+    background-color: #ff4d4d;
+    font-weight: bold;
+    color:white;
 }
 
 .header, .footer{

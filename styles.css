@@ -23,8 +23,8 @@ ul{
     list-style-type: none;
 }
 
-a{
-    color:black;
+a{  
+    color:inherit;
     text-decoration: none;
 }
 
@@ -135,10 +135,11 @@ a{
 .join {
     border-radius: 7px;
     border-color: #cc0000;
-    padding: 0.3rem 0.8rem;
+    padding: 0.5rem 1rem;
     background-color: #ff4d4d;
     font-weight: bold;
-    color:white;
+    font-size: 0.9rem;
+    color: white;
 }
 
 .header, .footer{
